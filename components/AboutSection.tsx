@@ -1,18 +1,24 @@
 import React from "react"
 import Image from "next/image"
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const skills = [
+  { skill: "Figma" },
+  { skill: "Adobe Photoshop" },
+  { skill: "Adobe Illustrator" },
+  { skill: "C/C++" },
+  { skill: "Java" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
   { skill: "Python" },
+  { skill: "Node" },
+  { skill: "Express" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
 ]
 
 const AboutSection = () => {
@@ -30,22 +36,21 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              Hi, my name is Mubin and I am a{" "}
+              <span className="font-bold">{"UX Designer"}</span> and
+              <span className="font-bold">{" Programmer "}</span>
+              based in Chattogram, Bangladesh.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I am studying at Chittagong University of Engineering & Technology, Raojan, Chattogram
+              with a BS in Computer Science & Engineering and have been working in the
               field ever since.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
+              From learning, playing esports to graphics designing,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
@@ -53,12 +58,22 @@ const AboutSection = () => {
             <p>
               I believe that you should{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                never stop learning
               </span>{" "}
               and that&#39;s what I strive to do, I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
               always open to new opportunities. 🙂
+            </p>
+            <br />
+            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+              Contact me!
+            </h1>
+            <p className="text-lg font-semibold mb-2">
+              <FaEnvelope className="inline-block mr-2 text-blue-500" />
+              Email: <a href="mailto:mubinalakib786@gmail.com" className="text-blue-500">mubinalakib786@gmail.com</a><br />
+              <FaWhatsapp className="inline-block mr-2 text-green-500" />
+              WhatsApp: <a href="https://wa.me/+8801869613804" className="text-green-500">+880 1869-613804</a>
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
@@ -75,13 +90,13 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
+            {/* <Image
               src="/hero-image.png"
               alt=""
               width={325}
               height={325}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
+            /> */}
           </div>
         </div>
       </div>
