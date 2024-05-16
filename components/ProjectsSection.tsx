@@ -69,6 +69,14 @@ const projects = [
     behance: "https://www.behance.net/gallery/194590613/Agency-Website-Inspired",
     link: "https://www.behance.net/gallery/194590613/Agency-Website-Inspired",
   },
+  {
+    name: "Polio CRM SaaS Landing Page",
+    description:
+      "This is a landing page of a CRM Landing Page",
+    image: "/polio.png",
+    behance: "https://www.behance.net/gallery/198474281/Polio-CRM-SaaS-Landing-Page",
+    link: "https://www.figma.com/community/file/1371567137719211765",
+  }
 ]
 
 const ProjectsSection = () => {
