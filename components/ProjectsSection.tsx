@@ -76,6 +76,14 @@ const projects = [
     image: "/polio.png",
     behance: "https://www.behance.net/gallery/198474281/Polio-CRM-SaaS-Landing-Page",
     link: "https://www.figma.com/community/file/1371567137719211765",
+  },
+  {
+    name: "Bazarpay Retailer App UI",
+    description:
+      "I have recently worked on a freelance project to design an app. This project contains the UI pages of that particular app. In another project, I'd like to breakdown the UX strategy behind it.",
+    image: "/retailer.png",
+    behance: "https://www.behance.net/gallery/198912839/Bazarpay-Retailer-App-UI-Design",
+    link: "https://www.behance.net/gallery/198912839/Bazarpay-Retailer-App-UI-Design",
   }
 ]
 
