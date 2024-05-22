@@ -6,6 +6,7 @@ import {
   AiOutlineYoutube,
   AiOutlineBehance,
   AiOutlineFacebook,
+  AiOutlineDribbble,
 
 } from "react-icons/ai"
 
@@ -51,6 +52,16 @@ const Footer = () => {
             target="_blank"
           >
             <AiOutlineBehance
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://dribbble.com/mubin_akib"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineDribbble
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />

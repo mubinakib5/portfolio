@@ -3,21 +3,16 @@ import Image from "next/image"
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const skills = [
-  { skill: "Figma" },
-  { skill: "Adobe Photoshop" },
-  { skill: "Adobe Illustrator" },
-  { skill: "C/C++" },
-  { skill: "Java" },
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "Python" },
-  { skill: "Node" },
+  { skill: "UI/UX Design" },
+  { skill: "Graphics Design" },
+  { skill: "Wireframing & Prototyping" },
+  { skill: "Structured Programming" },
+  { skill: "Object Oriented Programming" },
+  { skill: "Web Design" },
+  { skill: "Full Stack Web Development" },
+  { skill: "Machine Learning" },
+  { skill: "Artificial Intelligence" },
   { skill: "Express" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
-  { skill: "Git" },
   { skill: "GitHub" },
 ]
 
