@@ -23,12 +23,12 @@ const projects = [
     link: "https://www.figma.com/community/file/1338059066334201983",
   },
   {
-    name: "E-Commerce Card",
+    name: "Polio CRM SaaS Landing Page",
     description:
-      "This is a sample project how to create card design in figma",
-    image: "/card.png",
-    behance: "https://www.behance.net/gallery/192232905/E-Commerce-Product-Card-Airpods-Pro",
-    link: "https://www.figma.com/file/d6OFQMvsB3hNuNGi1GZsQR/E-Commerce-Card?type=design&node-id=2-12&mode=design&t=G8xbcHAy8WUuHOA2-0",
+      "This is a landing page of a CRM Landing Page",
+    image: "/polio.png",
+    behance: "https://www.behance.net/gallery/198474281/Polio-CRM-SaaS-Landing-Page",
+    link: "https://www.figma.com/community/file/1371567137719211765",
   },
   {
     name: "Tesla Homepage Recreated",
@@ -39,28 +39,12 @@ const projects = [
     link: "https://www.figma.com/community/file/1330237119538682628",
   },
   {
-    name: "Case Study - 1",
-    description:
-      "This is a case study I've learnt while learning UX Design",
-    image: "/case-1.png",
-    behance: "https://www.behance.net/gallery/194747437/UX-Case-Study-I-(Inspired)",
-    link: "https://www.behance.net/gallery/194747437/UX-Case-Study-I-(Inspired)",
-  },
-  {
     name: "Agency Website (Recreated)",
     description:
       "This is a website that I've been recreated",
     image: "/agency.png",
     behance: "https://www.behance.net/gallery/194590613/Agency-Website-Inspired",
     link: "https://www.behance.net/gallery/194590613/Agency-Website-Inspired",
-  },
-  {
-    name: "Polio CRM SaaS Landing Page",
-    description:
-      "This is a landing page of a CRM Landing Page",
-    image: "/polio.png",
-    behance: "https://www.behance.net/gallery/198474281/Polio-CRM-SaaS-Landing-Page",
-    link: "https://www.figma.com/community/file/1371567137719211765",
   },
   {
     name: "Bazarpay Retailer App UI",
