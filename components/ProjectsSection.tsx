@@ -7,34 +7,19 @@ import { FaBehance } from "react-icons/fa" // Import Behance icon
 
 const projects = [
   {
-    name: "Sushiman",
+    name: "Bazarpay Wholesaler UX Case Study",
     description:
-      "Sushiman is a web app that is primarily an imaginary restaurant theme based on japanese culture.",
-    image: "/sushiman.png",
-    github: "https://github.com/mubinakib5/sushiman",
-    link: "https://sushiman-teal.vercel.app/",
-  },
-  {
-    name: "Advice",
-    description: "Advice App is an API Based app, that generated random motivational quotes.",
-    image: "/advice.png",
-    github: "https://github.com/mubinakib5/advice-react-app",
-    link: "https://advice-react-app-delta.vercel.app/",
-  },
-  {
-    name: "Netflix - Clone",
-    description:
-      "This is a Netflix Clone app created with HTML, CSS and Javascript.",
-    image: "/netflix.png",
-    github: "https://github.com/mubinakib5/Netflix-Clone",
-    link: "https://netflix-clone-ten-wine.vercel.app/",
+      "This is a case study of an app that I've designed for my client",
+    image: "/wholesale.png",
+    behance: "https://www.behance.net/gallery/201439443/Bazarpay-Wholesaler-UX-Case-Study",
+    link: "https://www.behance.net/gallery/201439443/Bazarpay-Wholesaler-UX-Case-Study",
   },
   {
     name: "100 Days of Daily UI",
     description:
       "I've taken an everday UI Challenge for 100 days and this is the compilation of what I've done.",
     image: "/dailyui.png",
-    behance: "https://www.behance.net/mubinakib",
+    behance: "https://www.behance.net/gallery/201117593/Daily-UI-100-Days-of-Daily-UI-Challenge",
     link: "https://www.figma.com/community/file/1338059066334201983",
   },
   {
@@ -84,6 +69,29 @@ const projects = [
     image: "/retailer.png",
     behance: "https://www.behance.net/gallery/198912839/Bazarpay-Retailer-App-UI-Design",
     link: "https://www.behance.net/gallery/198912839/Bazarpay-Retailer-App-UI-Design",
+  },
+  {
+    name: "Sushiman",
+    description:
+      "Sushiman is a web app that is primarily an imaginary restaurant theme based on japanese culture.",
+    image: "/sushiman.png",
+    github: "https://github.com/mubinakib5/sushiman",
+    link: "https://sushiman-teal.vercel.app/",
+  },
+  {
+    name: "Advice",
+    description: "Advice App is an API Based app, that generated random motivational quotes.",
+    image: "/advice.png",
+    github: "https://github.com/mubinakib5/advice-react-app",
+    link: "https://advice-react-app-delta.vercel.app/",
+  },
+  {
+    name: "Netflix - Clone",
+    description:
+      "This is a Netflix Clone app created with HTML, CSS and Javascript.",
+    image: "/netflix.png",
+    github: "https://github.com/mubinakib5/Netflix-Clone",
+    link: "https://netflix-clone-ten-wine.vercel.app/",
   }
 ]
 
